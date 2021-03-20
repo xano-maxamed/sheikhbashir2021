@@ -1,0 +1,264 @@
+
+body {
+  font: 15px arial, helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/*container*/
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*header*/
+header {
+  background: orange;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  min-height: 100px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-bottom: 10px;
+}
+
+header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#showcase {
+  min-height: 100px;
+  background-color: skyblue;
+ text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  margin-top: 120px;
+  font-size: bold;
+  font-family:Times New Roman;
+  font-style: sans-serif;
+  font-weight:40px;
+  margin-bottom:15px;
+}
+
+#showcase p {
+  font-size: 28px;
+  font-style:italic ;
+  font-family:arial;
+}
+
+p {
+   font-family: Arial;
+   font-style: italic;
+   font-size: bold;
+   color: black;
+ }
+
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background:white;
+}
+
+#newsletter h1 {
+  float: center;
+  text-align:center ;
+  color: black;
+  border: 1px solid #Ff57D6;
+  border-radius: 10px;
+  font-family: helvetica;
+  font-size: bold;
+  font-style: italic;
+  background: #Ff57D6;
+  
+}
+
+#newsletter form {
+  float: center;
+  margin-bottom: 30px;
+  background:#Ff57D6;
+  border: 6px solid #Ff57D6;
+  border-radius:15px ;
+  padding-top: 15px;
+}
+
+#newsletter form, input {
+  font-weight: 500;
+  font-size: 0.95rem
+}
+
+
+#newsletter input[type="fullName"] {
+  padding: 4px;
+  height: 40px;
+  width: 300px;
+  margin-bottom:20px;
+  margin-left: 20px;
+  background: #02FFA1;
+  border-radius: 20px;
+  outline: none;
+  
+
+}
+
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 40px;
+  width: 300px;
+  margin-bottom:20px;
+  margin-left: 20px;
+  background: #02FFA1;
+  border-radius: 20px;
+  outline: none;
+}
+
+
+#newsletter input[type="password"] {
+  padding: 4px;
+  height: 40px;
+  width: 300px;
+  margin-bottom:20px;
+  margin-left: 20px;
+  background: #02FFA1;
+  border-radius: 20px;
+  outline: none;
+}
+
+#newsletter input[type="date"] {
+  padding: 4px;
+  height: 40px;
+  width: 300;
+  margin-bottom: 20px;
+  background: #02FFA1;
+  outline: none;
+  border-radius: 20px;
+}
+
+
+#newsletter input[type="submit"] {
+  padding: 4px;
+  height: 40px;
+  width: 300;
+  margin-bottom: 20px;
+  background: #02FFA1;
+  outline: none;
+  border-radius: 20px;
+}
+
+
+  
+.active, .menu-bar ul li:hover{
+  background: #2bab0d;
+  border-radius: 3px;
+}
+/*global*/
+
+/*footer*/
+footer {
+  width: 100%;
+  height: 10%;
+  margin: auto;
+  margin-top: 6rem;
+  color: white;
+  background: #ff9747;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  transition: background 0.7s ease;
+}
+
+footer:hover {
+  background: white;
+  color: black;
+}
+
+/*container*/
+.container-fluid h1 {
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  font-size: bold;
+  font-family: Times New Roman;
+
+}
+
+/*branding*/
+.branding h1 {
+  float: left;
+  padding-right: 100px; 
+  padding-top: 10px;
+}
+
+section {
+  border:2px solid black;
+  border-size: 100%;
+  color: black;
+}
+
+section h1 {
+  text-align: center;
+  text-decoration: none;
+  color: red;
+  font-size: 50px;
+  
+}
+
+
+section p {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+
+}
+
+/*article*/
+
+article {
+  
+  text-align: center;
+  font-family: Sans-Serif;
+  
+}
+
+article h2 {
+  text-align: center;
+  color: black;
+}
